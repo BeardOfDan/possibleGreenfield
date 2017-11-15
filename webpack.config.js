@@ -5,8 +5,6 @@ module.exports = {
   context: path.join(__dirname, 'src'),
   entry:
     {
-      'index': './loadApp.js',
-      'login': './loadLogin.js',
       // name of the html file without the extension : name of the load file
       'template': './loadTemplate.js'
     }

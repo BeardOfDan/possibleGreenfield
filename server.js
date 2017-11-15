@@ -11,14 +11,6 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.static(__dirname + '/dist'));
 
-app.get('/login', (req, res, next) => {
-  res.sendFile(path.join(__dirname + '/dist/login.html'));
-});
-
-app.get('/index', (req, res, next) => {
-  res.sendFile(path.join(__dirname + '/dist/index.html'));
-});
-
 // Path for the page
 app.get('/template', (req, res, next) => {
   // send the html file for that page
