@@ -1,9 +1,6 @@
 import React from 'react';
 
-/**
-* A counter button: tap the button to increase the count.
-*/
-class Counter extends React.Component {
+export default class Greenfield extends React.Component {
 
   render() {
     return (
@@ -13,4 +10,3 @@ class Counter extends React.Component {
     );
   }
 }
-export default Counter;
